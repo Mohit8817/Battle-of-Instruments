@@ -10,7 +10,7 @@ const WhatYouWillGet = () => {
             <Container>
                 <p className="text-uppercase">Magic is believing in yourself.</p>
                 <h2 className="fw-bold display-4 crdheading">
-                    What you will get<span className="text-info">?</span>
+                    What you will get?
                 </h2>
                 <div className="underline mx-auto my-3" />
 

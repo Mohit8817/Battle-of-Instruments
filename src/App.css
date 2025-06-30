@@ -237,3 +237,36 @@ p {
   animation: fadeDown 1.5s ease-out forwards;
   opacity: 0;
 }
+
+
+
+
+
+
+
+
+.album-section {
+ background-image: url('./assets/h-parallax-2.jpg');
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.albumtext{
+  font-family: 'Audiowide', cursive;
+  font-size: 3rem !important;
+  letter-spacing: 0.5px;
+  color: #fff;
+  animation: fadeDown 1.5s ease-out forwards;
+  opacity: 0;
+}
+.album-img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.underline {
+  width: 40px;
+  height: 4px;
+  background: white;
+  border-radius: 5px;
+}
