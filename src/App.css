@@ -32,7 +32,208 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heroheading {
+  font-family: 'Audiowide', cursive;
+  font-size: 4rem !important;
+  letter-spacing: 0.5px;
+  animation: fadeDown 1.5s ease-out forwards;
+  margin-top: 8rem !important;
+  opacity: 0;
+  /* for animation start */
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px !important;
+  animation: fadeDown 2s ease-out forwards;
+  opacity: 0;
+  /* for animation start */
+  animation-delay: 0.4s;
+}
+
+
+.top-center-gif {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: auto;
+  z-index: 10;
+}
+
+
+
+.red-shape {
+  position: absolute;
+  transform: rotate(-6deg);
+  background-color: #ef4444;
+  width: 350px;
+  height: 100px;
+  top: 8px;
+  left: 20rem;
+  z-index: 0;
+}
+
+.blue-shape {
+  position: absolute;
+  transform: rotate(12deg);
+  background-color: #06b6d4;
+  width: 200px;
+  height: 100px;
+  top: 16px;
+  left: 25rem;
+  z-index: 0;
+}
+
+
+
+
+
+
+
+
+/* EventStatsSection */
+
+
+
+.event-stats-section {
+  background-color: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.highlight-text {
+  font-family: 'Audiowide', cursive;
+  font-size: 4rem !important;
+  letter-spacing: 0.5px;
+  animation: fadeDown 1.5s ease-out forwards;
+  opacity: 0;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #b52a93;
+}
+
+.label-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.desc-text {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
+.cta-text {
+  color: #b52a93;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  font-family: 'Caveat', cursive;
+}
+
+.image-stack {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.circle-img {
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Large main image at bottom right */
+.circle-img.large {
+  width: 260px;
+  height: 260px;
+  bottom: 0;
+  right: 5%;
+}
+
+/* Medium circle at top-left */
+.circle-img.medium {
+  width: 150px;
+  height: 150px;
+  top: 22rem;
+  left: 25%;
+}
+
+/* Small circle at middle-left */
+.circle-img.small {
+  width: 140px;
+  height: 140px;
+  top: 28%;
+  left: 25%;
+}
+
+/* Extra circle at top-center-right */
+.circle-img.extra {
+  width: 130px;
+  height: 130px;
+  top: 3rem;
+  right: 25%;
+}
+
+/* Extra small circle at top-right corner */
+.circle-img.tiny {
+  width: 80px;
+  height: 80px;
+  top: 5%;
+  right: 5%;
+}
+
+
+.right-bottom {
+  bottom: 10%;
+  right: 20%;
+}
+
+
+
+.underline {
+  width: 200px;
+  height: 4px;
+  background-color: #b52a93;
+  border-radius: 10px;
+}
+
+
+.crdheading {
+  font-family: 'Audiowide', cursive;
+  font-size: 4rem !important;
+  letter-spacing: 0.5px;
+  color: #000;
+  animation: fadeDown 1.5s ease-out forwards;
+  opacity: 0;
 }
