@@ -5,6 +5,8 @@ import EventStatsSection from './Components/Herosectoin/EventStatsSection';
 
 import Hero from './Components/Herosectoin/Hero';
 import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
+import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
+import Footer from './Components/Herosectoin/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <EventStatsSection />
       <WhatYouWillGet />
       <AlbumPromoSection />
+      <MusicFilledEvents/>
+      <Footer/>
     </BrowserRouter>
   );
 }
