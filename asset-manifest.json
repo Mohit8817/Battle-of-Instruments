@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Battle-of-Instruments/static/css/main.0943c0ae.css",
-    "main.js": "/Battle-of-Instruments/static/js/main.f4b2f54b.js",
+    "main.css": "/Battle-of-Instruments/static/css/main.d23e5a28.css",
+    "main.js": "/Battle-of-Instruments/static/js/main.01fb4d7c.js",
     "static/js/453.470dca14.chunk.js": "/Battle-of-Instruments/static/js/453.470dca14.chunk.js",
     "static/media/Battle-of-instruments-500-x-300-px.gif": "/Battle-of-Instruments/static/media/Battle-of-instruments-500-x-300-px.ca1bbd1f28393ee64a22.gif",
     "static/media/img1 (3).png": "/Battle-of-Instruments/static/media/img1 (3).27fbb887fa9417d1fe59.png",
@@ -10,19 +10,23 @@
     "static/media/background_01.jpg": "/Battle-of-Instruments/static/media/background_01.5f6c2214d5196cfed83f.jpg",
     "static/media/img1 (1).png": "/Battle-of-Instruments/static/media/img1 (1).5c24c54488e9c9dced71.png",
     "static/media/djbg.jpg": "/Battle-of-Instruments/static/media/djbg.6df451fb9c1f4ba1b57a.jpg",
+    "static/media/lj.png": "/Battle-of-Instruments/static/media/lj.9a350ebc0ac7178a559e.png",
     "static/media/bgbattel.png": "/Battle-of-Instruments/static/media/bgbattel.b634b040883365d63d17.png",
+    "static/media/mh.png": "/Battle-of-Instruments/static/media/mh.96137e841651c805f065.png",
     "static/media/h-parallax-2.jpg": "/Battle-of-Instruments/static/media/h-parallax-2.8e63d057b26879957582.jpg",
     "static/media/events (1).jpg": "/Battle-of-Instruments/static/media/events (1).9552179286d0b5a717e8.jpg",
+    "static/media/psm.png": "/Battle-of-Instruments/static/media/psm.b73bb3ff86426b7495ed.png",
     "static/media/h-album-playlist-holder.jpg": "/Battle-of-Instruments/static/media/h-album-playlist-holder.2128784bbb37ad3124f0.jpg",
+    "static/media/mb.png": "/Battle-of-Instruments/static/media/mb.c0d429661f85ed5de177.png",
     "static/media/events (4).jpg": "/Battle-of-Instruments/static/media/events (4).bdbea0f66bfededf874c.jpg",
     "static/media/events (3).jpg": "/Battle-of-Instruments/static/media/events (3).f5e591132eefb3d3adfd.jpg",
     "index.html": "/Battle-of-Instruments/index.html",
-    "main.0943c0ae.css.map": "/Battle-of-Instruments/static/css/main.0943c0ae.css.map",
-    "main.f4b2f54b.js.map": "/Battle-of-Instruments/static/js/main.f4b2f54b.js.map",
+    "main.d23e5a28.css.map": "/Battle-of-Instruments/static/css/main.d23e5a28.css.map",
+    "main.01fb4d7c.js.map": "/Battle-of-Instruments/static/js/main.01fb4d7c.js.map",
     "453.470dca14.chunk.js.map": "/Battle-of-Instruments/static/js/453.470dca14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0943c0ae.css",
-    "static/js/main.f4b2f54b.js"
+    "static/css/main.d23e5a28.css",
+    "static/js/main.01fb4d7c.js"
   ]
 }
