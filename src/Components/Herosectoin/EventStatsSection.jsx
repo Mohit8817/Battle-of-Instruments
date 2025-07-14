@@ -35,21 +35,19 @@ const EventStatsSection = () => {
     }, []);
 
     return (
-        <div className="event-stats-section text-white">
+        <div className="event-stats-section text-white bg-purple py-5">
             <Container fluid>
                 <Row className="justify-content-center text-center">
                     <Col md={6} className="mt-5 p-4">
                         <Row className="justify-content-center text-center">
-                            <Col xs={6} md={6}>
+                            <Col xs={6} md={6} className="mb-3">
                                 <h2 className="highlight-text">1,500+</h2>
                                 <p className="label-text">Attendees</p>
                             </Col>
-                            <Col xs={6} md={6}>
+                            <Col xs={6} md={6} className="mb-3">
                                 <h2 className="highlight-text">100+</h2>
                                 <p className="label-text">Speakers</p>
                             </Col>
-                        </Row>
-                        <Row>
                             <Col xs={6} md={6}>
                                 <h2 className="highlight-text">200+</h2>
                                 <p className="label-text">Sessions</p>
@@ -60,7 +58,7 @@ const EventStatsSection = () => {
                             </Col>
                         </Row>
 
-                        <p className="desc-text">
+                        <p className="desc-text mt-4">
                             Join 400+ music lovers in Manhattan, NY for an unforgettable day of live performances,
                             exclusive artist sessions, and new connections at the ultimate festival for music enthusiasts.
                         </p>
@@ -68,11 +66,11 @@ const EventStatsSection = () => {
                         <p className="cta-text">Let's join together</p>
                     </Col>
 
-                    <Col md={6} className="image-stack d-none d-md-block" ref={containerRef}>
-                        <img src={img1} alt="img1" className="circle-img small" />
-                        <img src={img2} alt="img2" className="circle-img medium" />
-                        <img src={img3} alt="img3" className="circle-img large" />
-                        <img src={img4} alt="img4" className="circle-img extra" />
+                    <Col md={6} className="image-stack d-none d-md-block position-relative" ref={containerRef}>
+                        <img data-aos="zoom-in-up" data-aos-duration="1000" src={img1} alt="img1" className="circle-img small" />
+                        <img data-aos="zoom-in-up" data-aos-duration="2000" src={img2} alt="img2" className="circle-img medium" />
+                        <img data-aos="zoom-in-up" data-aos-duration="500" src={img3} alt="img3" className="circle-img large" />
+                        <img data-aos="zoom-in-up" data-aos-duration="1500" src={img4} alt="img4" className="circle-img extra" />
                         {/* <img src={img5} alt="img5" className="circle-img medium right-bottom" /> */}
                     </Col>
                 </Row>

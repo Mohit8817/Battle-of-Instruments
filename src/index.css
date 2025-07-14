@@ -14,3 +14,41 @@ code {
     monospace;
 }
 
+.bg1{
+  background-color: rgba(119, 76, 168, 0.6);
+}
+.txt1{  
+  color: rgb(148, 104, 199);
+}
+
+.txtS1{
+  font-family: 'Audiowide', cursive;
+}
+
+
+.bg-purple {
+  background-color: #4b2c80; /* elegant purple */
+}
+
+.event-card {
+  width: 300px;
+  background: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.event-img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover .event-img {
+  transform: scale(1.1);
+}
+
