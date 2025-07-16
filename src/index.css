@@ -30,6 +30,19 @@ code {
   background-color: #4b2c80; /* elegant purple */
 }
 
+.blurred {
+  filter: blur(4px);
+  transition: filter 0.4s ease-in-out;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.event-card-bg{
+   background: radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c);
+}
+
 .event-card {
   width: 300px;
   background: white;
