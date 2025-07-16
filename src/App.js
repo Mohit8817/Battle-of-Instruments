@@ -9,7 +9,10 @@ import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
 import ServicesSection from './Components/Herosectoin/ServicesSection';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
 import StudioServices from './Components/Herosectoin/StudioServices';
+import MarqueeSection from './Components/Herosectoin/Marqueesection';
 import Footer from './Components/Herosectoin/Footer';
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
@@ -26,6 +29,7 @@ function App() {
       <WhatYouWillGet />
       <MusicFilledEvents />
       <ArtistCarousel />
+      <StudioServices />
       <Footer/>
     </BrowserRouter>
   );

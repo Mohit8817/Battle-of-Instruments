@@ -10,7 +10,7 @@ const HoverImageText = ({ text, imageUrl, bodyText }) => {
       className="position-relative overflow-hidden rounded shadow col-md-3"
       data-aos="zoom-in" data-aos-easing="linear"
      data-aos-duration="1000"
-      style={{ width: '520px', height: '620px', cursor: 'pointer' }}
+      style={{ width: '500px', height: '620px', cursor: 'pointer' }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
