@@ -14,7 +14,6 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 import MarqueeSection from './Components/Herosectoin/marqueesection';
 import MusicEventForm from './Components/Herosectoin/MusicEventForm';
-import Textanimation from './Components/Herosectoin/Textanimation';
 
 function App() {
   useEffect(() => {
