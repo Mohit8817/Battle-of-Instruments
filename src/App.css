@@ -57,15 +57,14 @@
   }
 }
 
-.heroheading {
+/* .heroheading {
   font-family: 'Audiowide', cursive;
   font-size: 4rem !important;
   letter-spacing: 0.5px;
   animation: fadeDown 1.5s ease-out forwards;
   margin-top: 8rem !important;
   opacity: 0;
-  /* for animation start */
-}
+} */
 
 p {
   font-family: 'Raleway', sans-serif;
@@ -734,4 +733,72 @@ button span {
   font-size: 0.85rem;
   color: #999;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@600&display=swap');
+
+.neon-container {
+  background: radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neon-text {
+  font-size: 15rem;
+  letter-spacing: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-shadow:
+    0 0 5px #ff00f7,
+    0 0 10px #ff00f7,
+    0 0 20px #ff00f7,
+    0 0 40px #00ffe5,
+    0 0 80px #00ffe5;
+  animation: glow 2s infinite alternate;
+  transition: all 0.3s ease-in-out;
+}
+
+.highlight {
+  font-family: 'Great Vibes', cursive;
+  font-size: 8rem;
+}
+
+.cursor {
+  color: #fff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow:
+      0 0 5px #ff00f7,
+      0 0 10px #ff00f7,
+      0 0 20px #ff00f7,
+      0 0 40px #00ffe5;
+  }
+
+  100% {
+    text-shadow:
+      0 0 10px #00ffe5,
+      0 0 20px #00ffe5,
+      0 0 40px #ff00f7,
+      0 0 80px #ff00f7;
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }

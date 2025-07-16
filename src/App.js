@@ -14,6 +14,7 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 import MarqueeSection from './Components/Herosectoin/marqueesection';
 import MusicEventForm from './Components/Herosectoin/MusicEventForm';
+import Textanimation from './Components/Herosectoin/Textanimation';
 
 function App() {
   useEffect(() => {
@@ -25,14 +26,16 @@ function App() {
       <Hero />
       <EventStatsSection />
       <AlbumPromoSection />
+      <Textanimation />
       <ServicesSection />
       <MarqueeSection />
       <WhatYouWillGet />
       <MusicFilledEvents />
       <ArtistCarousel />
       <StudioServices />
-      <MusicEventForm/>
-      <Footer/>
+      
+      <MusicEventForm />
+      <Footer />
     </BrowserRouter>
   );
 }
