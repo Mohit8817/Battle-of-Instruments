@@ -8,6 +8,12 @@ import Hero from './Components/Herosectoin/Hero';
 import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
 import Footer from './Components/Herosectoin/Footer';
+import ServicesSection from './Components/Herosectoin/ServicesSection';
+import AOS from 'aos';
+import { useEffect } from 'react';
+
+import MusicEventForm from './Components/Herosectoin/MusicEventForm';
+
 
 function App() {
   useEffect(() => {
@@ -18,11 +24,12 @@ function App() {
     <BrowserRouter basename="/Battle-of-Instruments">
       <Hero />
       <EventStatsSection />
-      <WhatYouWillGet />
-      <ServicesSection/>
       <AlbumPromoSection />
+      <ServicesSection/>
+      <WhatYouWillGet />
       <MusicFilledEvents/>
       <ArtistCarousel />
+      <MusicEventForm/>
       <Footer/>
     </BrowserRouter>
   );
