@@ -26,7 +26,7 @@ function App() {
       <Hero />
       <EventStatsSection />
       <AlbumPromoSection />
-      <Textanimation />
+      {/* <Textanimation /> */}
       <ServicesSection />
       <MarqueeSection />
       <WhatYouWillGet />
