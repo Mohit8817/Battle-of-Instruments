@@ -10,8 +10,8 @@ const AlbumPromoSection = () => {
             <Container fluid>
                 <Row className="align-items-center">
                     {/* Left Side - Album Image */}
-                    <Col md={6} className="p-0">
-                        <img src={albumCover} alt="Album Cover" className="img-fluid w-80 h-100 album-img" />
+                    <Col md={6} className="p-0" >
+                        <img src={albumCover} data-aos="zoom-in-right" data-aos-duration="2000" alt="Album Cover" className="img-fluid w-80 h-100 album-img" />
                     </Col>
 
                     {/* Right Side - Text Content */}

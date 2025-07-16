@@ -32,7 +32,8 @@ const MusicFilledEvents = () => {
             </div>
             <div className="events-grid">
                 {events.map((event, idx) => (
-                    <div className="event-card" key={idx}>
+                    <div className="event-card" data-aos="zoom-in" data-aos-easing="linear"
+     data-aos-duration="1000" key={idx}>
                         <img src={event.image} alt={event.title} />
                         <h4>{event.title}</h4>
                         <p>{event.desc}</p>
