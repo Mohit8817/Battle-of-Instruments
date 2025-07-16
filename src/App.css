@@ -123,9 +123,14 @@ p {
 
 
 .event-stats-section {
-  background-color: #000;
+  background-image: url('../src//assets/bgimg.jpg'); /* Replace with your path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  padding: 80px 0;
+  color: white;
 }
 
 
@@ -309,7 +314,9 @@ p {
 .music-events-section {
   display: flex;
   gap: 2rem;
-  background: linear-gradient(135deg, #440064a8, #1b003f);
+  /* background: linear-gradient(135deg, #440064a8, #1b003f); */
+
+    background: radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c);
   color: white;
   padding: 4rem 2rem;
   flex-wrap: wrap;
@@ -384,6 +391,57 @@ p {
 
 
 
+
+
+/* services css  */
+.services-section {
+  background: radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c);
+  color: white;
+  padding: 80px 0;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card {
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  height: 100%;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #b52a94;
+  background-blend-mode: lighten;
+}
+
+.service-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.service-desc {
+  font-size: 0.95rem;
+  color: #d5d5d5;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
 /* footer css here */
 
 
@@ -417,10 +475,10 @@ p {
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow:
-    0 0 10px #ff005c,
-    0 0 20px #ff005c,
-    0 0 40px #ff005c,
-    0 0 60px #ff005c;
+    0 0 10px #b52a94,
+    0 0 20px #b52a94,
+    0 0 40px #b52a94,
+    0 0 60px #b52a94;
   background: rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
 }
@@ -458,7 +516,8 @@ p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   display: inline-block;
-  border-bottom: 2px solid #007bff; /* Blue underline */
+  border-bottom: 2px solid #007bff;
+  /* Blue underline */
   padding-bottom: 0.3rem;
 }
 

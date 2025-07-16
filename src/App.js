@@ -7,6 +7,7 @@ import Hero from './Components/Herosectoin/Hero';
 import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
 import Footer from './Components/Herosectoin/Footer';
+import ServicesSection from './Components/Herosectoin/ServicesSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <EventStatsSection />
       <WhatYouWillGet />
+      <ServicesSection/>
       <AlbumPromoSection />
       <MusicFilledEvents/>
       <Footer/>
