@@ -48,7 +48,7 @@ const ServicesSection = () => {
       <Container>
         {/* Section Heading */}
         <div className="text-center mb-5">
-          <h2 className="display-5 fw-bold text-uppercase">Our Services</h2>
+          <h2 className="service_head">Our Services</h2>
           <p className="lead">
             Explore the range of premium services we offer to make your music events unforgettable. From corporate gatherings to exclusive VIP nights – we’ve got it all covered.
           </p>

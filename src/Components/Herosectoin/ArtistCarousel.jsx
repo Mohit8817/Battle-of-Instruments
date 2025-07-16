@@ -54,7 +54,7 @@ const ArtistCarousel = () => {
                     <div className="col-md-1"></div>
                     <div className="col-md-10">
                         <div className="row txtS1 mb-5">
-                            <h1>Featured artists (2021)</h1>
+                            <h1>Featured artists (2025)</h1>
                             <hr style={{width: "30%", borderTopWidth: 4, borderColor: "white"}}/>
                         </div>
                         <Carousel indicators={true} interval={3000} controls={false} fade>

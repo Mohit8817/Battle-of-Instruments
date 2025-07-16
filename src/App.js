@@ -10,24 +10,22 @@ import ServicesSection from './Components/Herosectoin/ServicesSection';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
 import StudioServices from './Components/Herosectoin/StudioServices';
 import Footer from './Components/Herosectoin/Footer';
-import { useEffect } from 'react';
-import AOS from 'aos';
 
 function App() {
   useEffect(() => {
-     AOS.init();
-      document.title = "Battle of Instruments";
+    AOS.init();
+    document.title = "Battle of Instruments";
   }, []);
   return (
     <BrowserRouter basename="/Battle-of-Instruments">
       <Hero />
       <EventStatsSection />
-      <WhatYouWillGet />
-      <ServicesSection/>
       <AlbumPromoSection />
-      <MusicFilledEvents/>
+      <ServicesSection />
+      <MarqueeSection />
+      <WhatYouWillGet />
+      <MusicFilledEvents />
       <ArtistCarousel />
-      <StudioServices />
       <Footer/>
     </BrowserRouter>
   );
