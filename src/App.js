@@ -13,24 +13,26 @@ import AOS from 'aos';
 import { useEffect } from 'react';
 
 import MusicEventForm from './Components/Herosectoin/MusicEventForm';
+import MarqueeSection from './Components/Herosectoin/marqueesection';
 
 
 function App() {
   useEffect(() => {
-     AOS.init();
-      document.title = "Battle of Instruments";
+    AOS.init();
+    document.title = "Battle of Instruments";
   }, []);
   return (
     <BrowserRouter basename="/Battle-of-Instruments">
       <Hero />
       <EventStatsSection />
       <AlbumPromoSection />
-      <ServicesSection/>
+      <ServicesSection />
+      <MarqueeSection />
       <WhatYouWillGet />
-      <MusicFilledEvents/>
+      <MusicFilledEvents />
       <ArtistCarousel />
-      <MusicEventForm/>
-      <Footer/>
+      <MusicEventForm />
+      <Footer />
     </BrowserRouter>
   );
 }
