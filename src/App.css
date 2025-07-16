@@ -316,7 +316,7 @@ p {
   gap: 2rem;
   /* background: linear-gradient(135deg, #440064a8, #1b003f); */
 
-    background: radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c);
+  background: radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c);
   color: white;
   padding: 4rem 2rem;
   flex-wrap: wrap;

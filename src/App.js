@@ -6,8 +6,12 @@ import ArtistCarousel from './Components/Herosectoin/ArtistCarousel';
 
 import Hero from './Components/Herosectoin/Hero';
 import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
+import ServicesSection from './Components/Herosectoin/ServicesSection';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
+import StudioServices from './Components/Herosectoin/StudioServices';
 import Footer from './Components/Herosectoin/Footer';
+import { useEffect } from 'react';
+import AOS from 'aos';
 
 function App() {
   useEffect(() => {
@@ -23,6 +27,7 @@ function App() {
       <AlbumPromoSection />
       <MusicFilledEvents/>
       <ArtistCarousel />
+      <StudioServices />
       <Footer/>
     </BrowserRouter>
   );
