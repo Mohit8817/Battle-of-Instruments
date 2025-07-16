@@ -20,31 +20,31 @@ import img12 from '../../assets/festival-slider-backround.jpg';
 
 
 
-const topImages = [img1, img2, img3, img4, img5, img13,img1];
+const topImages = [img1, img2, img3, img4, img5, img13, img1];
 const bottomImages = [img6, img7, img8, img9, img10, img11, img12];
 
 const MarqueeSection = () => {
-  return (
-    <section className="marquee-gallery">
-      {/* Top Scrolling Row - Left */}
-      <div className="marquee-row left">
-        <div className="marquee-track">
-          {[...topImages, ...topImages.slice(0, 2)].map((src, index) => (
-            <img src={src} alt={`music-top-${index}`} key={`top-${index}`} />
-          ))}
-        </div>
-      </div>
+    return (
+        <section className="marquee-gallery">
+            {/* Top Scrolling Row - Left */}
+            <div className="marquee-row left">
+                <div className="marquee-track">
+                    {[...topImages, ...topImages.slice(0, 2)].map((src, index) => (
+                        <img src={src} alt={`music-top-${index}`} key={`top-${index}`} />
+                    ))}
+                </div>
+            </div>
 
-      {/* Bottom Scrolling Row - Right */}
-      <div className="marquee-row right">
-        <div className="marquee-track">
-          {[...bottomImages, ...bottomImages.slice(0, 2)].map((src, index) => (
-            <img src={src} alt={`music-bottom-${index}`} key={`bottom-${index}`} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+            {/* Bottom Scrolling Row - Right */}
+            <div className="marquee-row right">
+                <div className="marquee-track">
+                    {[...bottomImages, ...bottomImages.slice(0, 2)].map((src, index) => (
+                        <img src={src} alt={`music-bottom-${index}`} key={`bottom-${index}`} />
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 };
 
 export default MarqueeSection;

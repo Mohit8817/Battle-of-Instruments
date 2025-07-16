@@ -6,16 +6,7 @@ const MusicEventForm = () => {
     return (
         <div
             className="music-form-section"
-            style={{
-                backgroundImage: `radial-gradient(circle at 70% 50%, #4c007d, #0c1d5c), url(${bgTexture})`,
-                backgroundSize: 'cover, cover',
-                backgroundPosition: 'center, center',
-                backgroundRepeat: 'no-repeat, no-repeat',
-                padding: '100px 20px',
-                minHeight: '100vh',
-                color: 'white',
-                fontFamily: `'Poppins', sans-serif`,
-            }}
+
         >
             <Container>
                 <div className="text-center mb-4">

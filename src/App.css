@@ -82,7 +82,7 @@ p {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 420px;
+  width: 250px;
   height: auto;
   z-index: 10;
 }
