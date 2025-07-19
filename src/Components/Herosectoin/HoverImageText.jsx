@@ -37,11 +37,11 @@ const HoverImageText = ({ text, imageUrl, bodyText }) => {
         transition={{ duration: 0.5 }}
       >
         <div className='px-4 text-center'>
-          <h1 className="text-white fw-bold">{text}</h1>
-          <br /><br />
-          <h4 className='text-white'>{bodyText}</h4>
-          <br /><br />
-          <a href="/" className="text-white fs-5 text-decoration-none fw-bold">Read More...</a>
+        <h1 className="text-white fw-bold">{text}</h1>
+        <br /><br />
+        <h4 className='text-white'>{bodyText}</h4>
+        <br /><br />
+        <a href="#" className="text-white fs-5 text-decoration-none fw-bold">Read More...</a>
         </div>
       </motion.div>
     </div>

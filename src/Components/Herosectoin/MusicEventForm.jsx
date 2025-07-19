@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import bgTexture from '../../assets/h2_bg4.png';
 
 const MusicEventForm = () => {
     return (

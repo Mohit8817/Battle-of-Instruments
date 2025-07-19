@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import bgImage from '../../assets/background_01.jpg';
 import gifImage from '../../assets/Battle-of-instruments-500-x-300-px.gif';
 
 const Hero = () => {
+
+      const fullText = "Battle of Instrument";
+      const [text, setText] = useState("");
+      const [index, setIndex] = useState(0);
+  
+      useEffect(() => {
+          if (index < fullText.length) {
+              const timeout = setTimeout(() => {
+                  setText(prev => prev + fullText[index]);
+                  setIndex(index + 1);
+              }, 150);
+              return () => clearTimeout(timeout);
+          }
+      }, [index]);
+  
     return (
         <div
             className="container-fluid hero-bg text-white position-relative"
@@ -20,8 +35,13 @@ const Hero = () => {
                 style={{ minHeight: '100vh' }}
             >
                 {/* Music-Themed Heading */}
-                <div className="position-relative">
-                    <h1 className="position-relative fw-bold heroheading">BATTLE OF INSTRUMENTS</h1>
+                <div className="">
+                    <h1 className="neon-text">
+                        <span className="highlight">
+                            {text}
+                        </span>
+                        <span className="cursor"></span>
+                    </h1>
                 </div>
 
                 {/* Music Description */}

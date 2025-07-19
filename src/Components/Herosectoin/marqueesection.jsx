@@ -20,7 +20,7 @@ import img12 from '../../assets/festival-slider-backround.jpg';
 
 
 
-const topImages = [img1, img2, img3, img4, img5, img13, img1];
+const topImages = [img1, img2, img3, img4, img5, img13, img14];
 const bottomImages = [img6, img7, img8, img9, img10, img11, img12];
 
 const MarqueeSection = () => {
