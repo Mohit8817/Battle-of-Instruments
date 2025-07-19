@@ -67,11 +67,11 @@ const EventStatsSection = () => {
                     </Col>
 
                     <Col md={6} className="image-stack d-none d-md-block position-relative" ref={containerRef}>
-                        <img data-aos="zoom-in-up" data-aos-duration="1000" src={img1} alt="img1" className="circle-img small" />
-                        <img data-aos="zoom-in-up" data-aos-duration="2000" src={img2} alt="img2" className="circle-img medium" />
-                        <img data-aos="zoom-in-up" data-aos-duration="500" src={img3} alt="img3" className="circle-img large" />
-                        <img data-aos="zoom-in-up" data-aos-duration="1500" src={img4} alt="img4" className="circle-img extra" />
-                        {/* <img src={img5} alt="img5" className="circle-img medium right-bottom" /> */}
+                        <img data-aos="zoom-in" data-aos-duration="1000" src={img1} alt="img1" className="circle-img small" />
+                        <img data-aos="Zoom-in" data-aos-duration="2000" src={img2} alt="img2" className="circle-img medium" />
+                        <img data-aos="zoom-in" data-aos-duration="500" src={img3} alt="img3" className="circle-img large" />
+                        <img data-aos="zoom-in" data-aos-duration="1500" src={img4} alt="img4" className="circle-img extra" />
+                       
                     </Col>
                 </Row>
             </Container>

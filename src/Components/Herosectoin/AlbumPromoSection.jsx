@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import albumCover from '../../assets/gal (8).jpg';
+import albumCover from '../../assets/i (6).jpg';
 
 const AlbumPromoSection = () => {
     return (

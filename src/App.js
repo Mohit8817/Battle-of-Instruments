@@ -6,14 +6,13 @@ import ArtistCarousel from './Components/Herosectoin/ArtistCarousel';
 
 import Hero from './Components/Herosectoin/Hero';
 import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
-import ServicesSection from './Components/Herosectoin/ServicesSection';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
 import MusicEventForm from './Components/Herosectoin/MusicEventForm';
-import MarqueeSection from './Components/Herosectoin/Marqueesection';
 import StudioServices from './Components/Herosectoin/StudioServices';
 import Footer from './Components/Herosectoin/Footer';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import Marqueeslid from './Components/Herosectoin/Marqueeslid';
 
 function App() {
   useEffect(() => {
@@ -26,15 +25,14 @@ function App() {
       <Hero />
       <EventStatsSection />
       <AlbumPromoSection />
-      {/* <Textanimation /> */}
-      <ServicesSection />
-      <MarqueeSection />
+      {/* <MarqueeSection /> */}
+      <Marqueeslid />
       <WhatYouWillGet />
       <MusicFilledEvents />
       <ArtistCarousel />
       <StudioServices />
       <MusicEventForm />
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

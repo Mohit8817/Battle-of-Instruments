@@ -1,7 +1,7 @@
 import HoverImageText from './HoverImageText';
-import img1 from '../../assets/Studio/image01.png';
-import img2 from '../../assets/Studio/image02.png';
-import img3 from '../../assets/Studio/image03.png';
+import img1 from '../../assets/i (1).jpg';
+import img2 from '../../assets/events (1).jpg';
+import img3 from '../../assets/img1 (1).png';
 
 const StudioServices = () => {
   return (
