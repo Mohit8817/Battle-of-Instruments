@@ -4,7 +4,7 @@ import gifImage from '../../assets/Battle-of-instruments-500-x-300-px.gif';
 
 const Hero = () => {
 
-      const fullText = "Battle of Instrument";
+      const fullText = "Battle of Instruments";
       const [text, setText] = useState("");
       const [index, setIndex] = useState(0);
   
