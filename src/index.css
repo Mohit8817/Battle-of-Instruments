@@ -65,3 +65,19 @@ code {
   transform: scale(1.1);
 }
 
+/* HoverImageText CSS */
+
+.default-rounded {
+  border-radius: 0px;
+  transition: all 0.5s ease-in-out;
+}
+
+.hovered-rounded {
+  border-radius: 200px; /* or any smooth round */
+  transition: all 0.5s ease-in-out;
+}
+
+.blurred {
+  filter: blur(4px);
+  transition: all 0.5s ease-in-out;
+}
