@@ -8,6 +8,8 @@ import Hero from './Components/Herosectoin/Hero';
 import WhatYouWillGet from './Components/Herosectoin/WhatYouWillGet';
 import ServicesSection from './Components/Herosectoin/ServicesSection';
 import MusicFilledEvents from './Components/Herosectoin/MusicFilledEvents';
+import MusicEventForm from './Components/Herosectoin/MusicEventForm';
+import MarqueeSection from './Components/Herosectoin/Marqueesection';
 import StudioServices from './Components/Herosectoin/StudioServices';
 import Footer from './Components/Herosectoin/Footer';
 import AOS from 'aos';
@@ -17,6 +19,7 @@ function App() {
   useEffect(() => {
     AOS.init();
     document.title = "Battle of Instruments";
+    // eslint-disable-next-line
   }, []);
   return (
     <BrowserRouter basename="/Battle-of-Instruments">
@@ -30,6 +33,7 @@ function App() {
       <MusicFilledEvents />
       <ArtistCarousel />
       <StudioServices />
+      <MusicEventForm />
       <Footer/>
     </BrowserRouter>
   );
