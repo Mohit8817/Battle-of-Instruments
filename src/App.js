@@ -23,8 +23,8 @@ function App() {
   return (
     <BrowserRouter basename="/Battle-of-Instruments">
       <Hero />
-      <EventStatsSection />
       <AlbumPromoSection />
+      <EventStatsSection />
       {/* <MarqueeSection /> */}
       <Marqueeslid />
       <WhatYouWillGet />
