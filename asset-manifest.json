@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Battle-of-Instruments/static/css/main.562f7617.css",
-    "main.js": "/Battle-of-Instruments/static/js/main.c80b155b.js",
+    "main.js": "/Battle-of-Instruments/static/js/main.0ee6b15e.js",
     "static/js/453.2af9263c.chunk.js": "/Battle-of-Instruments/static/js/453.2af9263c.chunk.js",
     "static/media/GIF.gif": "/Battle-of-Instruments/static/media/GIF.4ceace4872188216dab0.gif",
     "static/media/img1 (3).png": "/Battle-of-Instruments/static/media/img1 (3).27fbb887fa9417d1fe59.png",
@@ -52,11 +52,11 @@
     "static/media/events (3).jpg": "/Battle-of-Instruments/static/media/events (3).f5e591132eefb3d3adfd.jpg",
     "index.html": "/Battle-of-Instruments/index.html",
     "main.562f7617.css.map": "/Battle-of-Instruments/static/css/main.562f7617.css.map",
-    "main.c80b155b.js.map": "/Battle-of-Instruments/static/js/main.c80b155b.js.map",
+    "main.0ee6b15e.js.map": "/Battle-of-Instruments/static/js/main.0ee6b15e.js.map",
     "453.2af9263c.chunk.js.map": "/Battle-of-Instruments/static/js/453.2af9263c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.562f7617.css",
-    "static/js/main.c80b155b.js"
+    "static/js/main.0ee6b15e.js"
   ]
 }
